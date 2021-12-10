@@ -17,13 +17,15 @@ from django.contrib import admin
 from django.urls import path
 from Halima import views as KHL
 from ORH import views as OZ
-from Muntaha import views as Sid
+from Hackathon import views as Contest_url
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hal/', KHL.hal),
     path('RH/',KHL.RH),
     path('login/',OZ.Diu),
-    path('uff/',)
+    path('Login/',Contest_url.Contest),
+
 ]
 
 
