@@ -25,7 +25,7 @@ urlpatterns = [
     path('RH/',KHL.RH),
     path('login/',OZ.Diu),
     path('Login/',Contest_url.Contest),
-    path('Login/',Contest_url.Contest_Day2),
+    path('Reg/',Contest_url.Contest_Day2),
 
 ]
 
