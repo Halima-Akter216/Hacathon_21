@@ -14,7 +14,7 @@ def Contest_Day2(request):
         passw = request.POST['p']
 
         if name == 'halima' and passw == 'halima#01':
-            return render(request, 'Hackathon/1st page.html')
+            return render(request, 'Hackathon/2nd page.html')
 
         else:
             return render(request, 'Hackathon/Unseccessful.html')
